@@ -1,0 +1,15 @@
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Adjust as needed */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center;
+  }
+  .texto{
+    padding-left: 55px;
+    text-align: center;
+    
+  }
+  .texto h1{
+    color: burlywood;
+}
