@@ -6,6 +6,8 @@ import { NavComponent } from './nav/nav.component';
 import { SliderComponent } from './slider/slider.component';
 import { RoundedImagesComponent } from './rounded-images/rounded-images.component';
 import { DocumentosComponent } from './documentos/documentos.component';
+import { ContactosComponent } from './contactos/contactos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { DocumentosComponent } from './documentos/documentos.component';
     NavComponent,
     SliderComponent,
     RoundedImagesComponent,
-    DocumentosComponent
+    DocumentosComponent,
+    ContactosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
