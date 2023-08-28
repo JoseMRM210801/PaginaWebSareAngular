@@ -13,3 +13,20 @@
   .texto h1{
     color: burlywood;
 }
+@media screen and (max-width: 767px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust as needed */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center;
+  }
+  .texto{
+    padding-left: 0px;
+    text-align: center;
+    
+  }
+  .texto h1{
+    color: burlywood;
+}
+}
