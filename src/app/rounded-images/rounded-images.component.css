@@ -59,7 +59,7 @@ body {
     justify-content: center; /* Alineación vertical en el centro */
     align-items: center; /* Alineación horizontal en el centro */
     width: 650px;
-    margin-left: 5%; /* Margen izquierdo reducido */
+    margin: 0; /* Margen izquierdo reducido */
     }
   
   .rounded-image {
