@@ -8,15 +8,28 @@
         background-size: cover;
         height: 450px;
         width: 100%;
-        animation: animate 6s infinite;
+        animation: animate 15s infinite;
         background-position: center;
     }
     @keyframes animate {
-        50%{
+        20%{
+            background-image: url(../../assets/img/slider-2.jpg);
+            background-size: cover;
+        }
+        40%{
+            background-image: url(../../assets/img/slider3.jpg);
+            background-size: cover;
+        }
+
+        60%{
             background-image: url(../../assets/img/slider4.jpg);
             background-size: cover;
         }
-        
+
+        80%{
+            background-image: url(../../assets/img/slider4.jpg);
+            background-size: cover;
+        }
     }
 }
 /* pagina web en celular */
@@ -30,14 +43,27 @@
         background-size: cover;
         height: 200px;
         width: 100%;
-        animation: animate 6s infinite;
+        animation: animate 15s infinite;
         background-position: center;
     }
     @keyframes animate {
-        50%{
+        20%{
+            background-image: url(../../assets/img/slider-2.jpg);
+            background-size: cover;
+        }
+        40%{
+            background-image: url(../../assets/img/slider3.jpg);
+            background-size: cover;
+        }
+
+        60%{
+            background-image: url(../../assets/img/slider3.jpg);
+            background-size: cover;
+        }
+
+        80%{
             background-image: url(../../assets/img/slider4.jpg);
             background-size: cover;
         }
-        
     }
 }
